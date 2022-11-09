@@ -8,7 +8,7 @@ public class DockerJenkinsIntegrationController {
 
     @GetMapping("/")
     public String printMessage(){
-        return "Hi Abinash, Welcome to jenkins Docker Demo.";
+        return "Congratulations you have successfully deployed your app to kubernetes.";
     }
 
 }
